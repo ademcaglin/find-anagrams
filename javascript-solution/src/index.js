@@ -12,7 +12,6 @@ for(let line of lines){
         wordlist.push(word);
     }
 }
-console.log(wordlist.length);
-
-
+console.time("dbsave");
 find_anagrams(phrase, [], wordlist);
+console.timeEnd("dbsave");
