@@ -1,0 +1,23 @@
+{
+  "name": "javascript-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "babel-node --presets @babel/preset-env src/index.js",
+    "test": "mocha --require @babel/register ./test/**/*.js"
+  },
+  "dependencies": {
+    "line-reader": "^0.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/node": "7.4.5",
+    "@babel/preset-env": "7.4.5",
+    "@babel/cli": "7.4.4",
+    "@babel/register": "*",
+    "mocha": "*",
+    "chai": "*"
+  },
+  "keywords": []
+}
