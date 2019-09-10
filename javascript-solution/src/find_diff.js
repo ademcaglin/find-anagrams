@@ -1,4 +1,4 @@
-function remove(array, element) {
+export function remove(array, element) {
     const index = array.indexOf(element);
 
     if (index !== -1) {

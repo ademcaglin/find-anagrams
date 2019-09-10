@@ -15,4 +15,4 @@ for(let line of lines){
 console.log(wordlist.length);
 
 
-//find_anagrams(phrase, [], wordlist);
+find_anagrams(phrase, [], wordlist);
