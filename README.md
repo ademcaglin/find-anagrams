@@ -6,7 +6,7 @@ https://followthewhiterabbit.trustpilot.com/cs/step3.html
 
 ## Solution
 
-> When I first encountered the problem(about 1 week ago), I thought it was about hashing vulnerability. However it seems md5 hash is just about time complexity. So i decided to implement an algorithm to solve anagram problem. After implemeting algorithm with python, i realized that finding easy secret takes about 1 minute. To find algorithm Big O(n) i used word's length as n so it seems the algorithm has exponantial difficulty. 
+> When I first came across the problem(about 1 week ago), I thought it was a hashing problem which contains a tricky. After review i realized that it is about finding anagrams of a phrase. Then i decided to implement an algorithm to find anagrams. After implemeting algorithm with python, i realized that finding easy secret took about 1 minute with word's length 4. Then i changed word's length as 3, same algorithm took about 4 hours. To find algorithm time complexity i used word's length as n so it seems the algorithm has exponantial time complexity like O(k^n). 
 
 ### Agrotihm:
 
