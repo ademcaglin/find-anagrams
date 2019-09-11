@@ -1,5 +1,5 @@
 import hashlib 
-from diff import diff 
+import diff 
 
 def find_anagrams(phrase, candidate, words):
   filtered = [w for w in words if len(diff(w, phrase)) == 0]

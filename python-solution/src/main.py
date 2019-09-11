@@ -1,6 +1,6 @@
 import time
-from diff import diff
-from find_anagrams import find_anagrams
+import diff
+import find_anagrams
 
 phrase = "poultryoutwitsants"
 fo = open("words", "r")
